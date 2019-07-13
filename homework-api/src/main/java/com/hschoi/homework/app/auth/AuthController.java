@@ -59,9 +59,9 @@ public class AuthController {
     public ResponseEntity<AuthDto> register(@Valid @RequestBody UserDto userDto) {
         
 		log.info("[AuthController]: >> 회원가입 : {}", userDto);
-		
+		//회원 가입 처리
         UserDto user = userService.register(userDto);
-        
+        // 성공 시 리턴된 UserDto를 파라미터로 Access Token 발행 후 Token 정보를 return
         String accessToken = authService.createUserKey(user);
 
 		AuthDto tokenDto = AuthDto.builder()
