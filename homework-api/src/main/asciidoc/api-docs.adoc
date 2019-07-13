@@ -1,0 +1,51 @@
+= Sample Project API 명세 (Spring REST Docs)
+​
+== 회원가입()
+​
+=== Curl request
+​
+include::{snippets}/sign/Auth-controller-test/curl-request.adoc[]
+​
+=== HTTP request
+​
+include::{snippets}/sign/Auth-controller-test/http-request.adoc[]
+​
+=== HTTP response
+​
+include::{snippets}/sign/Auth-controller-test/http-response.adoc[]
+​
+​
+=== request body
+​
+include::{snippets}/sign/Auth-controller-test/request-body.adoc[]
+​
+​
+=== response body
+​
+include::{snippets}/sign/Auth-controller-test/response-body.adoc[]
+​
+​
+​
+== 로그인()
+​
+=== Curl request
+​
+include::{snippets}/login/Auth-controller-test/curl-request.adoc[]
+​
+=== HTTP request
+​
+include::{snippets}/login/Auth-controller-test/http-request.adoc[]
+​
+=== HTTP response
+​
+include::{snippets}/login/Auth-controller-test/http-response.adoc[]
+​
+​
+=== request body
+​
+include::{snippets}/login/Auth-controller-test/request-body.adoc[]
+​
+​
+=== response body
+​
+include::{snippets}/login/Auth-controller-test/response-body.adoc[]
