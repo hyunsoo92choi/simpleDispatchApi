@@ -17,5 +17,6 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class RequestDto {
-    private String address;
+	private Long id; //추가 
+	private String address;
 }

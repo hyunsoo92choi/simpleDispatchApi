@@ -22,8 +22,9 @@ public enum HttpStatusType implements EnumType {
   , INVALID_CALLSTATUSTYPE("ADMIN_009", "올바른 호출상태 타입이 아닙니다.", 403)
   , REQUEST_ONLY_DRIVER("ADMIN_009", "기사만 요청할 수 있는 기능 입니다.", 403)
   , REQUEST_ONLY_PASSENGER("ADMIN_010", "승객만 요청할 수 있는 기능 입니다.", 403)
-  , ALREADY_ASSIGNED("ADMIN_011","이미 할당된 배차입니다.", 400)
-  , INVALID_ADDRESS("ADMIN_012","잘못된 주소 입니다.", 403)
+  , NOT_FOUND_CALL_ID("ADMIN_012","요청 정보를 찾을 수 없습니다.", 404)
+  , ALREADY_ASSIGNED("ADMIN_013","이미 할당된 배차입니다.", 400)
+  , INVALID_ADDRESS("ADMIN_014","잘못된 주소 입니다.", 403)
 
   /* Access Code */
   ,	INVALID_ACCESS("ACCESS_001", "접근권한이 없습니다.", 403)

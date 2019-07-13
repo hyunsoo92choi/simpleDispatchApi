@@ -69,12 +69,12 @@ public class CallController {
      * @return CallDto
      */ 	
     @PostMapping("/request")
-    public ResponseEntity<CallDto> request(@RequestBody RequestDto requestInfo, HttpServletRequest request) {
+    public ResponseEntity<CallDto> request(@RequestBody RequestDto requestDto, HttpServletRequest request) {
         
     	log.info("[CallController]: >> 승차요청 : {}", request);
     	
     	User user = authService.checkAuthAndGetUser(UserType.PASSENGER, request);
-        CallDto callDto = callService.setRequest(user, requestInfo);
+        CallDto callDto = callService.setRequest(user, requestDto);
 
         return ResponseEntity.status(HttpStatus.CREATED).body(callDto);
     }
@@ -109,5 +109,17 @@ public class CallController {
     	List<CallDto> callDtoList = callService.list(pageable);
     	
     	return ResponseEntity.status(HttpStatus.OK).body(callDtoList);
+    }
+    
+    @PostMapping("/assign")
+    public ResponseEntity<CallDto> assign(@RequestBody RequestDto requestDto, HttpServletRequest request) {
+        
+    	log.info("[CallController]: >> 배차요청: {}", request);
+    	
+    	User user = authService.checkAuthAndGetUser(UserType.DRIVER, request);
+
+    	CallDto callDto = callService.setAssign(user, requestDto);
+
+    	return ResponseEntity.status(HttpStatus.CREATED).body(callDto);
     }
 }

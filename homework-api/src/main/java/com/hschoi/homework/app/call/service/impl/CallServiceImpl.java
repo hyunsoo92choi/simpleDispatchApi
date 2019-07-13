@@ -1,6 +1,8 @@
 package com.hschoi.homework.app.call.service.impl;
 
 import static com.hschoi.common.code.HttpStatusType.INVALID_ADDRESS;
+import static com.hschoi.common.code.HttpStatusType.ALREADY_ASSIGNED;
+import static com.hschoi.common.code.HttpStatusType.NOT_FOUND_CALL_ID;
 
 import java.time.LocalDateTime;
 import java.util.Date;
@@ -92,5 +94,19 @@ public class CallServiceImpl implements CallService {
 	                .map(Call::toCallDto)
 	                .collect(Collectors.toList());
 	    }
+
+	@Override
+	public CallDto setAssign(User user, RequestDto requestDto) {
+
+		Call call = repository
+				.findById(requestDto.getId())
+						.orElseThrow(() -> new CustomException(NOT_FOUND_CALL_ID));
+
+		if (CallStatusType.ASSIGNED.equals(call.getCallStatusType())) {
+			throw new CustomException(ALREADY_ASSIGNED);
+		}
+
+		return null;
+	}
 
 }

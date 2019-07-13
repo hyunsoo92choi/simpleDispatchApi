@@ -39,4 +39,5 @@ public interface CallService {
 	 * @return
 	 */ 	
 	public List<CallDto> list(Pageable pageable);
+	public CallDto setAssign(User user, RequestDto requestDto);
 }
