@@ -85,8 +85,12 @@ public class Call {
 	private LocalDateTime createdAt = LocalDateTime.now();
 
 	@LastModifiedDate
-	@Column(name = "update_at", nullable = false, updatable = false)
+	@Column(name = "update_at", nullable = false)
 	private LocalDateTime updatedAt = LocalDateTime.now();
+	
+	public CallDto toCallDto() {
+		return new CallDto(id, address,callStatusType, requestedAt, assignedAt, completeAt, cancledAt);
+	}
 	
 	public CallDto toCallDto(Call call) {
     
@@ -96,8 +100,8 @@ public class Call {
 
     return CallDto.builder()
     		.id(call.getId())
-    		.passenger(call.getPassenger())
-    		.driver(call.getDriver())
+//    		.passenger(call.getPassenger())
+//    		.driver(call.getDriver())
     		.address(call.getAddress())
     		.callStatusType(call.getCallStatusType())
     		.requestedAt(call.getRequestedAt())

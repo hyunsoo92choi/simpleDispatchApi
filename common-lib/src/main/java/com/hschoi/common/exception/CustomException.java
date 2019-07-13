@@ -26,7 +26,7 @@ public class CustomException extends RuntimeException {
 	private HttpStatusType resultCode;
 
     public CustomException(HttpStatusType resultCode) {
-        super(resultCode.getMessage());
+        super(resultCode.getMessage());        
         this.resultCode = resultCode;
     }
 

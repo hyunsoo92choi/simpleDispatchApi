@@ -1,0 +1,1099 @@
+2019-07-13 11:09:57.715 [main] INFO  c.h.h.a.a.c.AuthControllerTest - Starting AuthControllerTest on L-SKG-16503400 with PID 49496 (started by hychoi in C:\Users\hychoi\git\simpleDispatchApi\homework\homework-api) 
+2019-07-13 11:09:57.723 [main] INFO  c.h.h.a.a.c.AuthControllerTest - The following profiles are active: local 
+2019-07-13 11:09:59.729 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode. 
+2019-07-13 11:09:59.924 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 161ms. Found 2 repository interfaces. 
+2019-07-13 11:10:00.518 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3ed7fc27] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2019-07-13 11:10:00.933 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting... 
+2019-07-13 11:10:01.359 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed. 
+2019-07-13 11:10:01.505 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...] 
+2019-07-13 11:10:01.617 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.10.Final} 
+2019-07-13 11:10:01.620 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found 
+2019-07-13 11:10:01.883 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final} 
+2019-07-13 11:10:02.740 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect 
+2019-07-13 11:10:04.077 [main] INFO  o.h.t.s.internal.SchemaCreatorImpl - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@571a663c' 
+2019-07-13 11:10:04.084 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2019-07-13 11:10:06.278 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2019-07-13 11:10:06.431 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2019-07-13 11:10:07.272 [main] INFO  c.h.h.a.a.c.AuthControllerTest - Started AuthControllerTest in 10.746 seconds (JVM running for 12.001) 
+2019-07-13 11:10:07.707 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+2019-07-13 11:10:07.708 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+2019-07-13 11:10:07.744 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 36 ms 
+2019-07-13 11:10:08.189 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+2019-07-13 11:10:08.190 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+2019-07-13 11:10:08.202 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 12 ms 
+2019-07-13 11:10:08.323 [Thread-5] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor' 
+2019-07-13 11:10:08.325 [Thread-5] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default' 
+2019-07-13 11:10:08.326 [Thread-5] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down' 
+2019-07-13 11:10:08.406 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated... 
+2019-07-13 11:10:08.668 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed. 
+2019-07-13 11:10:44.099 [main] INFO  c.h.h.a.a.c.AuthControllerTest - Starting AuthControllerTest on L-SKG-16503400 with PID 51072 (started by hychoi in C:\Users\hychoi\git\simpleDispatchApi\homework\homework-api) 
+2019-07-13 11:10:44.101 [main] INFO  c.h.h.a.a.c.AuthControllerTest - The following profiles are active: local 
+2019-07-13 11:10:45.992 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode. 
+2019-07-13 11:10:46.194 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 183ms. Found 2 repository interfaces. 
+2019-07-13 11:10:47.041 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$540f50bd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2019-07-13 11:10:47.490 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting... 
+2019-07-13 11:10:47.832 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed. 
+2019-07-13 11:10:48.017 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...] 
+2019-07-13 11:10:48.128 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.10.Final} 
+2019-07-13 11:10:48.131 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found 
+2019-07-13 11:10:48.391 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final} 
+2019-07-13 11:10:49.288 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect 
+2019-07-13 11:10:50.596 [main] INFO  o.h.t.s.internal.SchemaCreatorImpl - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@238291d4' 
+2019-07-13 11:10:50.601 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2019-07-13 11:10:52.763 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2019-07-13 11:10:53.050 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2019-07-13 11:10:54.054 [main] INFO  c.h.h.a.a.c.AuthControllerTest - Started AuthControllerTest in 11.237 seconds (JVM running for 12.927) 
+2019-07-13 11:10:54.232 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+2019-07-13 11:10:54.233 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+2019-07-13 11:10:54.324 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 89 ms 
+2019-07-13 11:10:54.679 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+2019-07-13 11:10:54.679 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+2019-07-13 11:10:54.688 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 9 ms 
+2019-07-13 11:10:54.822 [Thread-5] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor' 
+2019-07-13 11:10:54.828 [Thread-5] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default' 
+2019-07-13 11:10:54.829 [Thread-5] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down' 
+2019-07-13 11:10:54.863 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated... 
+2019-07-13 11:10:54.873 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed. 
+2019-07-13 11:28:42.029 [main] INFO  c.h.h.a.a.c.AuthControllerTest - Starting AuthControllerTest on L-SKG-16503400 with PID 57612 (started by hychoi in C:\Users\hychoi\git\simpleDispatchApi\homework\homework-api) 
+2019-07-13 11:28:42.031 [main] INFO  c.h.h.a.a.c.AuthControllerTest - The following profiles are active: local 
+2019-07-13 11:28:43.540 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode. 
+2019-07-13 11:28:43.708 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 154ms. Found 2 repository interfaces. 
+2019-07-13 11:28:44.865 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ca84272] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2019-07-13 11:28:45.326 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting... 
+2019-07-13 11:28:45.592 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed. 
+2019-07-13 11:28:45.749 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...] 
+2019-07-13 11:28:45.899 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.10.Final} 
+2019-07-13 11:28:45.905 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found 
+2019-07-13 11:28:46.006 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final} 
+2019-07-13 11:28:47.148 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect 
+2019-07-13 11:28:48.028 [main] INFO  o.h.t.s.internal.SchemaCreatorImpl - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@164d01ba' 
+2019-07-13 11:28:48.033 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2019-07-13 11:28:50.157 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2019-07-13 11:28:50.273 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2019-07-13 11:28:50.952 [main] INFO  c.h.h.a.a.c.AuthControllerTest - Started AuthControllerTest in 9.84 seconds (JVM running for 11.319) 
+2019-07-13 11:28:51.008 [main] ERROR o.s.test.context.TestContextManager - Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@48fa0f47] to prepare test instance [com.hschoi.homework.app.auth.controller.AuthControllerTest@3fc1abf] 
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'com.hschoi.homework.app.auth.controller.AuthControllerTest': Unsatisfied dependency expressed through field 'mvc'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.test.web.servlet.MockMvc' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:596)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:391)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:119)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:44)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:763)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:463)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:209)
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.test.web.servlet.MockMvc' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1655)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1214)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1168)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593)
+	... 29 common frames omitted
+2019-07-13 11:28:51.045 [main] ERROR o.s.test.context.TestContextManager - Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@48fa0f47] to prepare test instance [com.hschoi.homework.app.auth.controller.AuthControllerTest@21a5b599] 
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'com.hschoi.homework.app.auth.controller.AuthControllerTest': Unsatisfied dependency expressed through field 'mvc'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.test.web.servlet.MockMvc' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:596)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:391)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:119)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:44)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:763)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:463)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:209)
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.test.web.servlet.MockMvc' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1655)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1214)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1168)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593)
+	... 29 common frames omitted
+2019-07-13 11:28:51.080 [Thread-5] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor' 
+2019-07-13 11:28:51.090 [Thread-5] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default' 
+2019-07-13 11:28:51.092 [Thread-5] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down' 
+2019-07-13 11:28:51.318 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated... 
+2019-07-13 11:28:51.530 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed. 
+2019-07-13 11:29:05.876 [main] INFO  c.h.h.a.a.c.AuthControllerTest - Starting AuthControllerTest on L-SKG-16503400 with PID 58244 (started by hychoi in C:\Users\hychoi\git\simpleDispatchApi\homework\homework-api) 
+2019-07-13 11:29:05.877 [main] INFO  c.h.h.a.a.c.AuthControllerTest - The following profiles are active: local 
+2019-07-13 11:29:07.392 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode. 
+2019-07-13 11:29:07.540 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 134ms. Found 2 repository interfaces. 
+2019-07-13 11:29:08.813 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f855ecfd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2019-07-13 11:29:09.194 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting... 
+2019-07-13 11:29:09.483 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed. 
+2019-07-13 11:29:09.680 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...] 
+2019-07-13 11:29:09.827 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.10.Final} 
+2019-07-13 11:29:09.831 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found 
+2019-07-13 11:29:09.943 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final} 
+2019-07-13 11:29:10.955 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect 
+2019-07-13 11:29:11.838 [main] INFO  o.h.t.s.internal.SchemaCreatorImpl - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@478967eb' 
+2019-07-13 11:29:11.843 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2019-07-13 11:29:14.003 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2019-07-13 11:29:14.141 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2019-07-13 11:29:14.959 [main] INFO  c.h.h.a.a.c.AuthControllerTest - Started AuthControllerTest in 10.098 seconds (JVM running for 11.365) 
+2019-07-13 11:29:15.014 [main] ERROR o.s.test.context.TestContextManager - Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@48fa0f47] to prepare test instance [com.hschoi.homework.app.auth.controller.AuthControllerTest@1ad1b737] 
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'com.hschoi.homework.app.auth.controller.AuthControllerTest': Unsatisfied dependency expressed through field 'mvc'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.test.web.servlet.MockMvc' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:596)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:391)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:119)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:44)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:763)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:463)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:209)
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.test.web.servlet.MockMvc' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1655)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1214)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1168)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593)
+	... 29 common frames omitted
+2019-07-13 11:29:15.103 [Thread-5] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor' 
+2019-07-13 11:29:15.112 [Thread-5] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default' 
+2019-07-13 11:29:15.114 [Thread-5] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down' 
+2019-07-13 11:29:15.149 [Thread-5] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 90121, SQLState: 90121 
+2019-07-13 11:29:15.149 [Thread-5] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-199] 
+2019-07-13 11:29:15.152 [Thread-5] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 90121, SQLState: 90121 
+2019-07-13 11:29:15.153 [Thread-5] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-199] 
+2019-07-13 11:29:15.154 [Thread-5] INFO  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'entityManagerFactory': org.hibernate.exception.JDBCConnectionException: Unable to release JDBC Connection used for DDL execution 
+2019-07-13 11:29:15.157 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated... 
+2019-07-13 11:29:15.193 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed. 
+2019-07-13 11:32:23.627 [main] INFO  c.h.h.a.a.c.AuthControllerTest - Starting AuthControllerTest on L-SKG-16503400 with PID 57752 (started by hychoi in C:\Users\hychoi\git\simpleDispatchApi\homework\homework-api) 
+2019-07-13 11:32:23.629 [main] INFO  c.h.h.a.a.c.AuthControllerTest - The following profiles are active: local 
+2019-07-13 11:32:26.482 [main] WARN  o.s.w.c.s.GenericWebApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'callController': Unsatisfied dependency expressed through field 'callService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'callServiceImpl' defined in file [C:\Users\hychoi\git\simpleDispatchApi\homework\homework-api\target\classes\com\hschoi\homework\app\call\service\impl\CallServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.hschoi.homework.app.call.repository.CallRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {} 
+2019-07-13 11:32:26.492 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled. 
+2019-07-13 11:32:26.569 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.hschoi.homework.app.call.service.impl.CallServiceImpl required a bean of type 'com.hschoi.homework.app.call.repository.CallRepository' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.hschoi.homework.app.call.repository.CallRepository' in your configuration.
+ 
+2019-07-13 11:32:26.575 [main] ERROR o.s.test.context.TestContextManager - Caught exception while allowing TestExecutionListener [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@79ca92b9] to prepare test instance [com.hschoi.homework.app.auth.controller.AuthControllerTest@7495699f] 
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:125)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:108)
+	at org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener.postProcessFields(MockitoTestExecutionListener.java:99)
+	at org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener.injectFields(MockitoTestExecutionListener.java:79)
+	at org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener.prepareTestInstance(MockitoTestExecutionListener.java:54)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:763)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:463)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:209)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'callController': Unsatisfied dependency expressed through field 'callService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'callServiceImpl' defined in file [C:\Users\hychoi\git\simpleDispatchApi\homework\homework-api\target\classes\com\hschoi\homework\app\call\service\impl\CallServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.hschoi.homework.app.call.repository.CallRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:596)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:843)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:127)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:117)
+	... 26 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'callServiceImpl' defined in file [C:\Users\hychoi\git\simpleDispatchApi\homework\homework-api\target\classes\com\hschoi\homework\app\call\service\impl\CallServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.hschoi.homework.app.call.repository.CallRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:769)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:218)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1187)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1248)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1168)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593)
+	... 44 common frames omitted
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.hschoi.homework.app.call.repository.CallRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1655)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1214)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1168)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:857)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:760)
+	... 57 common frames omitted
+2019-07-13 11:33:17.495 [main] INFO  c.h.h.a.a.c.AuthControllerTest - Starting AuthControllerTest on L-SKG-16503400 with PID 59012 (started by hychoi in C:\Users\hychoi\git\simpleDispatchApi\homework\homework-api) 
+2019-07-13 11:33:17.496 [main] INFO  c.h.h.a.a.c.AuthControllerTest - The following profiles are active: local 
+2019-07-13 11:33:19.364 [main] WARN  o.s.w.c.s.GenericWebApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'callController': Unsatisfied dependency expressed through field 'callService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'callServiceImpl' defined in file [C:\Users\hychoi\git\simpleDispatchApi\homework\homework-api\target\classes\com\hschoi\homework\app\call\service\impl\CallServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.hschoi.homework.app.call.repository.CallRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {} 
+2019-07-13 11:33:19.370 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled. 
+2019-07-13 11:33:19.415 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.hschoi.homework.app.call.service.impl.CallServiceImpl required a bean of type 'com.hschoi.homework.app.call.repository.CallRepository' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.hschoi.homework.app.call.repository.CallRepository' in your configuration.
+ 
+2019-07-13 11:33:19.419 [main] ERROR o.s.test.context.TestContextManager - Caught exception while allowing TestExecutionListener [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1460a8c0] to prepare test instance [com.hschoi.homework.app.auth.controller.AuthControllerTest@40298285] 
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:125)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:108)
+	at org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener.postProcessFields(MockitoTestExecutionListener.java:99)
+	at org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener.injectFields(MockitoTestExecutionListener.java:79)
+	at org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener.prepareTestInstance(MockitoTestExecutionListener.java:54)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:763)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:463)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:209)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'callController': Unsatisfied dependency expressed through field 'callService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'callServiceImpl' defined in file [C:\Users\hychoi\git\simpleDispatchApi\homework\homework-api\target\classes\com\hschoi\homework\app\call\service\impl\CallServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.hschoi.homework.app.call.repository.CallRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:596)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:843)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:127)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:117)
+	... 26 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'callServiceImpl' defined in file [C:\Users\hychoi\git\simpleDispatchApi\homework\homework-api\target\classes\com\hschoi\homework\app\call\service\impl\CallServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.hschoi.homework.app.call.repository.CallRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:769)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:218)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1187)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1248)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1168)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593)
+	... 44 common frames omitted
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.hschoi.homework.app.call.repository.CallRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1655)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1214)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1168)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:857)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:760)
+	... 57 common frames omitted
+2019-07-13 11:35:28.653 [main] INFO  c.h.h.a.a.c.AuthControllerTest - Starting AuthControllerTest on L-SKG-16503400 with PID 58256 (started by hychoi in C:\Users\hychoi\git\simpleDispatchApi\homework\homework-api) 
+2019-07-13 11:35:28.655 [main] INFO  c.h.h.a.a.c.AuthControllerTest - The following profiles are active: local 
+2019-07-13 11:35:30.902 [main] WARN  o.s.w.c.s.GenericWebApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'callController': Unsatisfied dependency expressed through field 'callService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'callServiceImpl' defined in file [C:\Users\hychoi\git\simpleDispatchApi\homework\homework-api\target\classes\com\hschoi\homework\app\call\service\impl\CallServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.hschoi.homework.app.call.repository.CallRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {} 
+2019-07-13 11:35:30.908 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled. 
+2019-07-13 11:35:30.954 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.hschoi.homework.app.call.service.impl.CallServiceImpl required a bean of type 'com.hschoi.homework.app.call.repository.CallRepository' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.hschoi.homework.app.call.repository.CallRepository' in your configuration.
+ 
+2019-07-13 11:35:30.958 [main] ERROR o.s.test.context.TestContextManager - Caught exception while allowing TestExecutionListener [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1460a8c0] to prepare test instance [com.hschoi.homework.app.auth.controller.AuthControllerTest@61f80d55] 
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:125)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:108)
+	at org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener.postProcessFields(MockitoTestExecutionListener.java:99)
+	at org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener.injectFields(MockitoTestExecutionListener.java:79)
+	at org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener.prepareTestInstance(MockitoTestExecutionListener.java:54)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:763)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:463)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:209)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'callController': Unsatisfied dependency expressed through field 'callService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'callServiceImpl' defined in file [C:\Users\hychoi\git\simpleDispatchApi\homework\homework-api\target\classes\com\hschoi\homework\app\call\service\impl\CallServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.hschoi.homework.app.call.repository.CallRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:596)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:843)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:127)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:117)
+	... 26 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'callServiceImpl' defined in file [C:\Users\hychoi\git\simpleDispatchApi\homework\homework-api\target\classes\com\hschoi\homework\app\call\service\impl\CallServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.hschoi.homework.app.call.repository.CallRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:769)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:218)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1187)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1248)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1168)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593)
+	... 44 common frames omitted
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.hschoi.homework.app.call.repository.CallRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1655)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1214)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1168)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:857)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:760)
+	... 57 common frames omitted
+2019-07-13 11:35:54.154 [main] INFO  c.h.h.a.a.c.AuthControllerTest - Starting AuthControllerTest on L-SKG-16503400 with PID 13508 (started by hychoi in C:\Users\hychoi\git\simpleDispatchApi\homework\homework-api) 
+2019-07-13 11:35:54.156 [main] INFO  c.h.h.a.a.c.AuthControllerTest - The following profiles are active: local 
+2019-07-13 11:35:56.057 [main] WARN  o.s.w.c.s.GenericWebApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'callController': Unsatisfied dependency expressed through field 'callService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'callServiceImpl' defined in file [C:\Users\hychoi\git\simpleDispatchApi\homework\homework-api\target\classes\com\hschoi\homework\app\call\service\impl\CallServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.hschoi.homework.app.call.repository.CallRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {} 
+2019-07-13 11:35:56.063 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled. 
+2019-07-13 11:35:56.116 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.hschoi.homework.app.call.service.impl.CallServiceImpl required a bean of type 'com.hschoi.homework.app.call.repository.CallRepository' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.hschoi.homework.app.call.repository.CallRepository' in your configuration.
+ 
+2019-07-13 11:35:56.120 [main] ERROR o.s.test.context.TestContextManager - Caught exception while allowing TestExecutionListener [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1460a8c0] to prepare test instance [com.hschoi.homework.app.auth.controller.AuthControllerTest@6401d0a0] 
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:125)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:108)
+	at org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener.postProcessFields(MockitoTestExecutionListener.java:99)
+	at org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener.injectFields(MockitoTestExecutionListener.java:79)
+	at org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener.prepareTestInstance(MockitoTestExecutionListener.java:54)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:763)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:463)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:209)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'callController': Unsatisfied dependency expressed through field 'callService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'callServiceImpl' defined in file [C:\Users\hychoi\git\simpleDispatchApi\homework\homework-api\target\classes\com\hschoi\homework\app\call\service\impl\CallServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.hschoi.homework.app.call.repository.CallRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:596)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:843)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:127)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:117)
+	... 26 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'callServiceImpl' defined in file [C:\Users\hychoi\git\simpleDispatchApi\homework\homework-api\target\classes\com\hschoi\homework\app\call\service\impl\CallServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.hschoi.homework.app.call.repository.CallRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:769)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:218)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1187)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1248)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1168)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593)
+	... 44 common frames omitted
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.hschoi.homework.app.call.repository.CallRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1655)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1214)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1168)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:857)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:760)
+	... 57 common frames omitted
+2019-07-13 11:37:44.858 [main] INFO  c.h.h.a.a.c.AuthControllerTest - Starting AuthControllerTest on L-SKG-16503400 with PID 59724 (started by hychoi in C:\Users\hychoi\git\simpleDispatchApi\homework\homework-api) 
+2019-07-13 11:37:44.860 [main] INFO  c.h.h.a.a.c.AuthControllerTest - The following profiles are active: local 
+2019-07-13 11:37:47.610 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2019-07-13 11:37:48.091 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+2019-07-13 11:37:48.092 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+2019-07-13 11:37:48.123 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 31 ms 
+2019-07-13 11:37:48.189 [main] INFO  c.h.h.a.a.c.AuthControllerTest - Started AuthControllerTest in 4.263 seconds (JVM running for 5.867) 
+2019-07-13 11:37:48.305 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+2019-07-13 11:37:48.306 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+2019-07-13 11:37:48.308 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms 
+2019-07-13 11:37:48.490 [Thread-4] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor' 
+2019-07-13 11:39:08.177 [main] INFO  c.h.h.a.a.c.AuthControllerTest - Starting AuthControllerTest on L-SKG-16503400 with PID 58924 (started by hychoi in C:\Users\hychoi\git\simpleDispatchApi\homework\homework-api) 
+2019-07-13 11:39:08.178 [main] INFO  c.h.h.a.a.c.AuthControllerTest - The following profiles are active: local 
+2019-07-13 11:39:11.012 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2019-07-13 11:39:11.423 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+2019-07-13 11:39:11.424 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+2019-07-13 11:39:11.452 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 28 ms 
+2019-07-13 11:39:11.515 [main] INFO  c.h.h.a.a.c.AuthControllerTest - Started AuthControllerTest in 4.212 seconds (JVM running for 5.905) 
+2019-07-13 11:39:11.667 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+2019-07-13 11:39:11.668 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+2019-07-13 11:39:11.671 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms 
+2019-07-13 11:39:12.023 [main] INFO  c.h.homework.app.auth.AuthController - [AuthController]: >> 회원가입 : UserDto(id=null, email=hychoi@ebay.com, password=password12#, userType=PASSENGER) 
+2019-07-13 11:39:12.130 [Thread-4] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor' 
+2019-07-13 11:41:08.278 [main] INFO  c.h.h.a.a.c.AuthControllerTest - Starting AuthControllerTest on L-SKG-16503400 with PID 60588 (started by hychoi in C:\Users\hychoi\git\simpleDispatchApi\homework\homework-api) 
+2019-07-13 11:41:08.279 [main] INFO  c.h.h.a.a.c.AuthControllerTest - The following profiles are active: local 
+2019-07-13 11:41:11.183 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2019-07-13 11:41:11.632 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+2019-07-13 11:41:11.633 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+2019-07-13 11:41:11.663 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 30 ms 
+2019-07-13 11:41:11.724 [main] INFO  c.h.h.a.a.c.AuthControllerTest - Started AuthControllerTest in 4.345 seconds (JVM running for 6.086) 
+2019-07-13 11:41:11.834 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+2019-07-13 11:41:11.834 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+2019-07-13 11:41:11.836 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms 
+2019-07-13 11:41:12.180 [main] INFO  c.h.homework.app.auth.AuthController - [AuthController]: >> 회원가입 : UserDto(id=null, email=hychoi@ebay.com, password=password12#, userType=PASSENGER) 
+2019-07-13 11:41:12.249 [Thread-4] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor' 
+2019-07-13 11:41:47.030 [main] INFO  c.h.h.a.a.c.AuthControllerTest - Starting AuthControllerTest on L-SKG-16503400 with PID 61184 (started by hychoi in C:\Users\hychoi\git\simpleDispatchApi\homework\homework-api) 
+2019-07-13 11:41:47.032 [main] INFO  c.h.h.a.a.c.AuthControllerTest - The following profiles are active: local 
+2019-07-13 11:41:49.626 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2019-07-13 11:41:50.066 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+2019-07-13 11:41:50.066 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+2019-07-13 11:41:50.105 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 39 ms 
+2019-07-13 11:41:50.182 [main] INFO  c.h.h.a.a.c.AuthControllerTest - Started AuthControllerTest in 4.27 seconds (JVM running for 6.391) 
+2019-07-13 11:41:50.333 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+2019-07-13 11:41:50.335 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+2019-07-13 11:41:50.338 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 3 ms 
+2019-07-13 11:41:50.660 [main] INFO  c.h.homework.app.auth.AuthController - [AuthController]: >> 회원가입 : UserDto(id=null, email=hychoi@ebay.com, password=password12#, userType=PASSENGER) 
+2019-07-13 11:41:50.728 [Thread-4] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor' 
+2019-07-13 11:43:44.771 [main] INFO  c.h.h.a.a.c.AuthControllerTest - Starting AuthControllerTest on L-SKG-16503400 with PID 60488 (started by hychoi in C:\Users\hychoi\git\simpleDispatchApi\homework\homework-api) 
+2019-07-13 11:43:44.772 [main] INFO  c.h.h.a.a.c.AuthControllerTest - The following profiles are active: local 
+2019-07-13 11:43:47.528 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2019-07-13 11:43:48.104 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+2019-07-13 11:43:48.105 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+2019-07-13 11:43:48.144 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 39 ms 
+2019-07-13 11:43:48.245 [main] INFO  c.h.h.a.a.c.AuthControllerTest - Started AuthControllerTest in 4.293 seconds (JVM running for 6.236) 
+2019-07-13 11:43:48.390 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+2019-07-13 11:43:48.391 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+2019-07-13 11:43:48.395 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 4 ms 
+2019-07-13 11:43:48.912 [main] INFO  c.h.homework.app.auth.AuthController - [AuthController]: >> 회원가입 : UserDto(id=null, email=hychoi@ebay.com, password=password12#, userType=PASSENGER) 
+2019-07-13 11:43:48.979 [Thread-4] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor' 
+2019-07-13 11:43:59.800 [main] INFO  c.h.h.a.a.c.AuthControllerTest - Starting AuthControllerTest on L-SKG-16503400 with PID 61224 (started by hychoi in C:\Users\hychoi\git\simpleDispatchApi\homework\homework-api) 
+2019-07-13 11:43:59.802 [main] INFO  c.h.h.a.a.c.AuthControllerTest - The following profiles are active: local 
+2019-07-13 11:44:02.849 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2019-07-13 11:44:03.291 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+2019-07-13 11:44:03.292 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+2019-07-13 11:44:03.321 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 29 ms 
+2019-07-13 11:44:03.384 [main] INFO  c.h.h.a.a.c.AuthControllerTest - Started AuthControllerTest in 4.535 seconds (JVM running for 6.178) 
+2019-07-13 11:44:03.549 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+2019-07-13 11:44:03.549 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+2019-07-13 11:44:03.551 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms 
+2019-07-13 11:44:03.839 [main] INFO  c.h.homework.app.auth.AuthController - [AuthController]: >> 회원가입 : UserDto(id=null, email=hychoi@ebay.com, password=password12#, userType=PASSENGER) 
+2019-07-13 11:44:03.935 [Thread-4] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor' 
+2019-07-13 11:44:59.314 [main] INFO  c.h.h.a.a.c.AuthControllerTest - Starting AuthControllerTest on L-SKG-16503400 with PID 55064 (started by hychoi in C:\Users\hychoi\git\simpleDispatchApi\homework\homework-api) 
+2019-07-13 11:44:59.316 [main] INFO  c.h.h.a.a.c.AuthControllerTest - The following profiles are active: local 
+2019-07-13 11:45:04.091 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2019-07-13 11:45:04.937 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+2019-07-13 11:45:04.940 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+2019-07-13 11:45:04.995 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 55 ms 
+2019-07-13 11:45:05.101 [main] INFO  c.h.h.a.a.c.AuthControllerTest - Started AuthControllerTest in 7.338 seconds (JVM running for 9.929) 
+2019-07-13 11:45:05.266 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+2019-07-13 11:45:05.280 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+2019-07-13 11:45:05.283 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 3 ms 
+2019-07-13 11:45:05.867 [main] INFO  c.h.homework.app.auth.AuthController - [AuthController]: >> 회원가입 : UserDto(id=null, email=hychoi@ebay.com, password=password12#, userType=PASSENGER) 
+2019-07-13 11:50:46.522 [main] INFO  c.h.h.a.a.c.AuthControllerTest - Starting AuthControllerTest on L-SKG-16503400 with PID 61400 (started by hychoi in C:\Users\hychoi\git\simpleDispatchApi\homework\homework-api) 
+2019-07-13 11:50:46.524 [main] INFO  c.h.h.a.a.c.AuthControllerTest - The following profiles are active: local 
+2019-07-13 11:50:52.397 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2019-07-13 11:50:53.027 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+2019-07-13 11:50:53.028 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+2019-07-13 11:50:53.061 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 33 ms 
+2019-07-13 11:50:53.172 [main] INFO  c.h.h.a.a.c.AuthControllerTest - Started AuthControllerTest in 8.187 seconds (JVM running for 11.046) 
+2019-07-13 11:50:53.411 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+2019-07-13 11:50:53.412 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+2019-07-13 11:50:53.418 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 6 ms 
+2019-07-13 11:50:53.971 [main] INFO  c.h.homework.app.auth.AuthController - [AuthController]: >> 회원가입 : UserDto(id=null, email=hychoi@ebay.com, password=password12#, userType=PASSENGER) 
+2019-07-13 12:00:02.771 [Thread-4] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor' 
+2019-07-13 12:07:25.420 [main] INFO  c.h.h.a.a.c.AuthControllerTest - Starting AuthControllerTest on L-SKG-16503400 with PID 66028 (started by hychoi in C:\Users\hychoi\git\simpleDispatchApi\homework\homework-api) 
+2019-07-13 12:07:25.423 [main] INFO  c.h.h.a.a.c.AuthControllerTest - The following profiles are active: local 
+2019-07-13 12:07:32.140 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2019-07-13 12:07:33.143 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+2019-07-13 12:07:33.144 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+2019-07-13 12:07:33.249 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 105 ms 
+2019-07-13 12:07:33.396 [main] INFO  c.h.h.a.a.c.AuthControllerTest - Started AuthControllerTest in 10.456 seconds (JVM running for 13.251) 
+2019-07-13 12:07:33.566 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+2019-07-13 12:07:33.569 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+2019-07-13 12:07:33.573 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 4 ms 
+2019-07-13 12:07:34.398 [main] INFO  c.h.homework.app.auth.AuthController - [AuthController]: >> 회원가입 : UserDto(id=null, email=hychoi@ebay.com, password=password12#, userType=PASSENGER) 
+2019-07-13 12:07:39.584 [Thread-4] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor' 
+2019-07-13 12:11:08.786 [main] INFO  c.h.h.a.a.c.AuthControllerTest - Starting AuthControllerTest on L-SKG-16503400 with PID 67232 (started by hychoi in C:\Users\hychoi\git\simpleDispatchApi\homework\homework-api) 
+2019-07-13 12:11:08.788 [main] INFO  c.h.h.a.a.c.AuthControllerTest - The following profiles are active: local 
+2019-07-13 12:11:11.519 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2019-07-13 12:11:12.011 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+2019-07-13 12:11:12.011 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+2019-07-13 12:11:12.042 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 30 ms 
+2019-07-13 12:11:12.119 [main] INFO  c.h.h.a.a.c.AuthControllerTest - Started AuthControllerTest in 4.172 seconds (JVM running for 5.887) 
+2019-07-13 12:11:12.270 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+2019-07-13 12:11:12.271 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+2019-07-13 12:11:12.277 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 6 ms 
+2019-07-13 12:11:12.659 [main] INFO  c.h.homework.app.auth.AuthController - [AuthController]: >> 회원가입 : UserDto(id=null, email=hychoi@ebay.com, password=password12#, userType=PASSENGER) 
+2019-07-13 12:11:12.748 [Thread-4] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor' 
+2019-07-13 12:14:46.163 [main] INFO  c.h.h.a.a.c.AuthControllerTest - Starting AuthControllerTest on L-SKG-16503400 with PID 14012 (started by hychoi in C:\Users\hychoi\git\simpleDispatchApi\homework\homework-api) 
+2019-07-13 12:14:46.164 [main] INFO  c.h.h.a.a.c.AuthControllerTest - The following profiles are active: local 
+2019-07-13 12:14:49.328 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2019-07-13 12:14:49.940 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+2019-07-13 12:14:49.941 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+2019-07-13 12:14:49.974 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 33 ms 
+2019-07-13 12:14:50.042 [main] INFO  c.h.h.a.a.c.AuthControllerTest - Started AuthControllerTest in 4.767 seconds (JVM running for 6.664) 
+2019-07-13 12:14:50.172 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+2019-07-13 12:14:50.173 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+2019-07-13 12:14:50.179 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 5 ms 
+2019-07-13 12:14:50.532 [main] INFO  c.h.homework.app.auth.AuthController - [AuthController]: >> 회원가입 : UserDto(id=null, email=hychoi@ebay.com, password=password12#, userType=PASSENGER) 
+2019-07-13 12:14:50.618 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+2019-07-13 12:14:50.619 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+2019-07-13 12:14:50.621 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms 
+2019-07-13 12:14:50.672 [Thread-4] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor' 
+2019-07-13 12:17:10.428 [main] INFO  c.h.h.a.a.c.AuthControllerTest - Starting AuthControllerTest on L-SKG-16503400 with PID 70376 (started by hychoi in C:\Users\hychoi\git\simpleDispatchApi\homework\homework-api) 
+2019-07-13 12:17:10.430 [main] INFO  c.h.h.a.a.c.AuthControllerTest - The following profiles are active: local 
+2019-07-13 12:17:14.004 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2019-07-13 12:17:14.483 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+2019-07-13 12:17:14.484 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+2019-07-13 12:17:14.518 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 34 ms 
+2019-07-13 12:17:14.611 [main] INFO  c.h.h.a.a.c.AuthControllerTest - Started AuthControllerTest in 5.275 seconds (JVM running for 6.968) 
+2019-07-13 12:17:14.721 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+2019-07-13 12:17:14.721 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+2019-07-13 12:17:14.723 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms 
+2019-07-13 12:17:15.052 [main] INFO  c.h.homework.app.auth.AuthController - [AuthController]: >> 회원가입 : UserDto(id=null, email=hychoi@ebay.com, password=password12#, userType=PASSENGER) 
+2019-07-13 12:17:15.120 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+2019-07-13 12:17:15.120 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+2019-07-13 12:17:15.122 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms 
+2019-07-13 12:17:15.191 [Thread-4] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor' 
+2019-07-13 12:18:24.187 [main] INFO  c.h.h.a.a.c.AuthControllerTest - Starting AuthControllerTest on L-SKG-16503400 with PID 70036 (started by hychoi in C:\Users\hychoi\git\simpleDispatchApi\homework\homework-api) 
+2019-07-13 12:18:24.188 [main] INFO  c.h.h.a.a.c.AuthControllerTest - The following profiles are active: local 
+2019-07-13 12:18:28.225 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2019-07-13 12:18:28.763 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+2019-07-13 12:18:28.764 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+2019-07-13 12:18:28.795 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 31 ms 
+2019-07-13 12:18:28.854 [main] INFO  c.h.h.a.a.c.AuthControllerTest - Started AuthControllerTest in 5.611 seconds (JVM running for 7.514) 
+2019-07-13 12:18:28.948 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+2019-07-13 12:18:28.948 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+2019-07-13 12:18:28.951 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms 
+2019-07-13 12:18:29.307 [main] INFO  c.h.homework.app.auth.AuthController - [AuthController]: >> 회원가입 : UserDto(id=null, email=hychoi@ebay.com, password=password12#, userType=PASSENGER) 
+2019-07-13 12:18:29.368 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+2019-07-13 12:18:29.369 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+2019-07-13 12:18:29.371 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms 
+2019-07-13 12:18:29.446 [Thread-4] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor' 
+2019-07-13 12:20:43.056 [main] INFO  c.h.h.a.a.c.AuthControllerTest - Starting AuthControllerTest on L-SKG-16503400 with PID 65908 (started by hychoi in C:\Users\hychoi\git\simpleDispatchApi\homework\homework-api) 
+2019-07-13 12:20:43.058 [main] INFO  c.h.h.a.a.c.AuthControllerTest - The following profiles are active: local 
+2019-07-13 12:20:45.863 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2019-07-13 12:20:46.295 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+2019-07-13 12:20:46.296 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+2019-07-13 12:20:46.329 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 33 ms 
+2019-07-13 12:20:46.400 [main] INFO  c.h.h.a.a.c.AuthControllerTest - Started AuthControllerTest in 4.223 seconds (JVM running for 5.811) 
+2019-07-13 12:20:46.526 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+2019-07-13 12:20:46.526 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+2019-07-13 12:20:46.530 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 3 ms 
+2019-07-13 12:20:46.864 [main] INFO  c.h.homework.app.auth.AuthController - [AuthController]: >> 회원가입 : UserDto(id=null, email=hychoi@ebay.com, password=password12#, userType=PASSENGER) 
+2019-07-13 12:20:46.969 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+2019-07-13 12:20:46.969 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+2019-07-13 12:20:46.972 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms 
+2019-07-13 12:20:47.066 [Thread-4] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor' 
+2019-07-13 12:21:09.454 [main] INFO  c.h.h.a.a.c.AuthControllerTest - Starting AuthControllerTest on L-SKG-16503400 with PID 61516 (started by hychoi in C:\Users\hychoi\git\simpleDispatchApi\homework\homework-api) 
+2019-07-13 12:21:09.455 [main] INFO  c.h.h.a.a.c.AuthControllerTest - The following profiles are active: local 
+2019-07-13 12:21:12.216 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2019-07-13 12:21:12.678 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+2019-07-13 12:21:12.679 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+2019-07-13 12:21:12.709 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 30 ms 
+2019-07-13 12:21:12.769 [main] INFO  c.h.h.a.a.c.AuthControllerTest - Started AuthControllerTest in 4.139 seconds (JVM running for 6.307) 
+2019-07-13 12:21:12.866 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+2019-07-13 12:21:12.867 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+2019-07-13 12:21:12.869 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms 
+2019-07-13 12:21:13.189 [main] INFO  c.h.homework.app.auth.AuthController - [AuthController]: >> 회원가입 : UserDto(id=null, email=hychoi@ebay.com, password=password12#, userType=PASSENGER) 
+2019-07-13 12:21:13.273 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+2019-07-13 12:21:13.274 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+2019-07-13 12:21:13.277 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 3 ms 
+2019-07-13 12:21:13.370 [Thread-4] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor' 
+2019-07-13 12:22:24.037 [main] INFO  c.h.h.a.a.c.AuthControllerTest - Starting AuthControllerTest on L-SKG-16503400 with PID 70884 (started by hychoi in C:\Users\hychoi\git\simpleDispatchApi\homework\homework-api) 
+2019-07-13 12:22:24.039 [main] INFO  c.h.h.a.a.c.AuthControllerTest - The following profiles are active: local 
+2019-07-13 12:22:26.942 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2019-07-13 12:22:27.338 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+2019-07-13 12:22:27.339 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+2019-07-13 12:22:27.369 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 30 ms 
+2019-07-13 12:22:27.418 [main] INFO  c.h.h.a.a.c.AuthControllerTest - Started AuthControllerTest in 4.308 seconds (JVM running for 5.954) 
+2019-07-13 12:22:27.530 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+2019-07-13 12:22:27.531 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+2019-07-13 12:22:27.534 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 3 ms 
+2019-07-13 12:22:27.848 [main] INFO  c.h.homework.app.auth.AuthController - [AuthController]: >> 회원가입 : UserDto(id=null, email=hychoi@ebay.com, password=password12#, userType=PASSENGER) 
+2019-07-13 12:22:27.923 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+2019-07-13 12:22:27.924 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+2019-07-13 12:22:27.927 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 3 ms 
+2019-07-13 12:22:28.065 [Thread-4] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor' 
+2019-07-13 12:23:31.883 [main] INFO  c.h.h.a.a.c.AuthControllerTest - Starting AuthControllerTest on L-SKG-16503400 with PID 69480 (started by hychoi in C:\Users\hychoi\git\simpleDispatchApi\homework\homework-api) 
+2019-07-13 12:23:31.885 [main] INFO  c.h.h.a.a.c.AuthControllerTest - The following profiles are active: local 
+2019-07-13 12:23:35.316 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2019-07-13 12:23:36.037 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+2019-07-13 12:23:36.037 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+2019-07-13 12:23:36.073 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 35 ms 
+2019-07-13 12:23:36.163 [main] INFO  c.h.h.a.a.c.AuthControllerTest - Started AuthControllerTest in 5.124 seconds (JVM running for 6.847) 
+2019-07-13 12:23:36.296 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+2019-07-13 12:23:36.297 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+2019-07-13 12:23:36.300 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 3 ms 
+2019-07-13 12:23:36.771 [main] INFO  c.h.homework.app.auth.AuthController - [AuthController]: >> 회원가입 : UserDto(id=null, email=hychoi@ebay.com, password=password12#, userType=PASSENGER) 
+2019-07-13 12:23:36.860 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+2019-07-13 12:23:36.860 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+2019-07-13 12:23:36.863 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 3 ms 
+2019-07-13 12:23:36.928 [Thread-4] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor' 
+2019-07-13 12:23:52.795 [main] INFO  c.h.h.a.a.c.AuthControllerTest - Starting AuthControllerTest on L-SKG-16503400 with PID 71492 (started by hychoi in C:\Users\hychoi\git\simpleDispatchApi\homework\homework-api) 
+2019-07-13 12:23:52.797 [main] INFO  c.h.h.a.a.c.AuthControllerTest - The following profiles are active: local 
+2019-07-13 12:23:55.915 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2019-07-13 12:23:56.369 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+2019-07-13 12:23:56.369 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+2019-07-13 12:23:56.404 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 34 ms 
+2019-07-13 12:23:56.469 [main] INFO  c.h.h.a.a.c.AuthControllerTest - Started AuthControllerTest in 4.544 seconds (JVM running for 6.427) 
+2019-07-13 12:23:56.600 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+2019-07-13 12:23:56.600 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+2019-07-13 12:23:56.603 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 3 ms 
+2019-07-13 12:23:56.961 [main] INFO  c.h.homework.app.auth.AuthController - [AuthController]: >> 회원가입 : UserDto(id=null, email=hychoi@ebay.com, password=password12#, userType=PASSENGER) 
+2019-07-13 12:23:57.035 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+2019-07-13 12:23:57.035 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+2019-07-13 12:23:57.037 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms 
+2019-07-13 12:23:57.093 [Thread-4] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor' 
+2019-07-13 12:24:43.274 [main] INFO  c.h.h.a.a.c.AuthControllerTest - Starting AuthControllerTest on L-SKG-16503400 with PID 70472 (started by hychoi in C:\Users\hychoi\git\simpleDispatchApi\homework\homework-api) 
+2019-07-13 12:24:43.275 [main] INFO  c.h.h.a.a.c.AuthControllerTest - The following profiles are active: local 
+2019-07-13 12:24:45.959 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2019-07-13 12:24:46.396 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+2019-07-13 12:24:46.397 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+2019-07-13 12:24:46.430 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 33 ms 
+2019-07-13 12:24:46.519 [main] INFO  c.h.h.a.a.c.AuthControllerTest - Started AuthControllerTest in 4.092 seconds (JVM running for 6.102) 
+2019-07-13 12:24:46.676 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+2019-07-13 12:24:46.678 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+2019-07-13 12:24:46.683 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 5 ms 
+2019-07-13 12:24:47.098 [main] INFO  c.h.homework.app.auth.AuthController - [AuthController]: >> 회원가입 : UserDto(id=null, email=hychoi@ebay.com, password=password12#, userType=PASSENGER) 
+2019-07-13 12:24:47.189 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+2019-07-13 12:24:47.190 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+2019-07-13 12:24:47.195 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 5 ms 
+2019-07-13 12:24:47.231 [Thread-4] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor' 
+2019-07-13 12:28:31.261 [main] INFO  c.h.h.a.a.c.AuthControllerTest - Starting AuthControllerTest on L-SKG-16503400 with PID 73200 (started by hychoi in C:\Users\hychoi\git\simpleDispatchApi\homework\homework-api) 
+2019-07-13 12:28:31.262 [main] INFO  c.h.h.a.a.c.AuthControllerTest - The following profiles are active: local 
+2019-07-13 12:28:34.212 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2019-07-13 12:28:34.672 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+2019-07-13 12:28:34.673 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+2019-07-13 12:28:34.714 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 41 ms 
+2019-07-13 12:28:34.806 [main] INFO  c.h.h.a.a.c.AuthControllerTest - Started AuthControllerTest in 4.472 seconds (JVM running for 6.873) 
+2019-07-13 12:28:34.924 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+2019-07-13 12:28:34.924 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+2019-07-13 12:28:34.928 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 4 ms 
+2019-07-13 12:28:35.278 [main] INFO  c.h.homework.app.auth.AuthController - [AuthController]: >> 회원가입 : UserDto(id=null, email=hychoi@ebay.com, password=password12#, userType=PASSENGER) 
+2019-07-13 12:28:35.365 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+2019-07-13 12:28:35.366 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+2019-07-13 12:28:35.367 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms 
+2019-07-13 12:28:35.391 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+2019-07-13 12:28:35.392 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+2019-07-13 12:28:35.395 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 3 ms 
+2019-07-13 12:28:35.446 [Thread-4] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor' 
+2019-07-13 12:29:18.203 [main] INFO  c.h.h.a.a.c.AuthControllerTest - Starting AuthControllerTest on L-SKG-16503400 with PID 72852 (started by hychoi in C:\Users\hychoi\git\simpleDispatchApi\homework\homework-api) 
+2019-07-13 12:29:18.204 [main] INFO  c.h.h.a.a.c.AuthControllerTest - The following profiles are active: local 
+2019-07-13 12:29:20.965 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2019-07-13 12:29:21.388 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+2019-07-13 12:29:21.389 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+2019-07-13 12:29:21.445 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 56 ms 
+2019-07-13 12:29:21.522 [main] INFO  c.h.h.a.a.c.AuthControllerTest - Started AuthControllerTest in 4.164 seconds (JVM running for 5.665) 
+2019-07-13 12:29:21.656 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+2019-07-13 12:29:21.658 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+2019-07-13 12:29:21.662 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 4 ms 
+2019-07-13 12:29:22.107 [main] INFO  c.h.homework.app.auth.AuthController - [AuthController]: >> 회원가입 : UserDto(id=null, email=hychoi@ebay.com, password=password12#, userType=PASSENGER) 
+2019-07-13 12:29:22.209 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+2019-07-13 12:29:22.210 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+2019-07-13 12:29:22.213 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 3 ms 
+2019-07-13 12:29:22.252 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+2019-07-13 12:29:22.252 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+2019-07-13 12:29:22.255 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms 
+2019-07-13 12:29:22.297 [Thread-4] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor' 
+2019-07-13 12:30:47.510 [main] INFO  c.h.h.a.a.c.AuthControllerTest - Starting AuthControllerTest on L-SKG-16503400 with PID 71104 (started by hychoi in C:\Users\hychoi\git\simpleDispatchApi\homework\homework-api) 
+2019-07-13 12:30:47.512 [main] INFO  c.h.h.a.a.c.AuthControllerTest - The following profiles are active: local 
+2019-07-13 12:30:50.166 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2019-07-13 12:30:50.745 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+2019-07-13 12:30:50.746 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+2019-07-13 12:30:50.782 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 36 ms 
+2019-07-13 12:30:50.896 [main] INFO  c.h.h.a.a.c.AuthControllerTest - Started AuthControllerTest in 4.345 seconds (JVM running for 5.953) 
+2019-07-13 12:30:51.032 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+2019-07-13 12:30:51.032 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+2019-07-13 12:30:51.035 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 3 ms 
+2019-07-13 12:30:51.348 [main] INFO  c.h.homework.app.auth.AuthController - [AuthController]: >> 회원가입 : UserDto(id=null, email=hychoi@ebay.com, password=password12#, userType=PASSENGER) 
+2019-07-13 12:30:51.425 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+2019-07-13 12:30:51.426 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+2019-07-13 12:30:51.429 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 3 ms 
+2019-07-13 12:30:51.433 [main] INFO  c.h.homework.app.auth.AuthController - [AuthController]: >> 로그인 : UserDto(id=null, email=hychoi@ebay.com, password=password12#, userType=PASSENGER) 
+2019-07-13 12:30:51.455 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+2019-07-13 12:30:51.456 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+2019-07-13 12:30:51.464 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 8 ms 
+2019-07-13 12:30:51.473 [main] INFO  c.h.homework.app.auth.AuthController - [AuthController]: >> 로그인 : UserDto(id=null, email=hychoi@ebay.com, password=password12#, userType=PASSENGER) 
+2019-07-13 12:30:51.493 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+2019-07-13 12:30:51.499 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+2019-07-13 12:30:51.502 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms 
+2019-07-13 12:30:51.525 [Thread-4] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor' 
+2019-07-13 12:32:23.718 [main] INFO  c.h.h.a.a.c.AuthControllerTest - Starting AuthControllerTest on L-SKG-16503400 with PID 74988 (started by hychoi in C:\Users\hychoi\git\simpleDispatchApi\homework\homework-api) 
+2019-07-13 12:32:23.719 [main] INFO  c.h.h.a.a.c.AuthControllerTest - The following profiles are active: local 
+2019-07-13 12:32:26.590 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2019-07-13 12:32:27.010 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+2019-07-13 12:32:27.011 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+2019-07-13 12:32:27.043 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 32 ms 
+2019-07-13 12:32:27.107 [main] INFO  c.h.h.a.a.c.AuthControllerTest - Started AuthControllerTest in 4.209 seconds (JVM running for 5.831) 
+2019-07-13 12:32:27.210 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+2019-07-13 12:32:27.210 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+2019-07-13 12:32:27.212 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms 
+2019-07-13 12:32:27.571 [main] INFO  c.h.homework.app.auth.AuthController - [AuthController]: >> 회원가입 : UserDto(id=null, email=hychoi@ebay.com, password=password12#, userType=PASSENGER) 
+2019-07-13 12:32:27.643 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+2019-07-13 12:32:27.644 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+2019-07-13 12:32:27.646 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms 
+2019-07-13 12:32:27.651 [main] INFO  c.h.homework.app.auth.AuthController - [AuthController]: >> 로그인 : UserDto(id=null, email=hychoi@ebay.com, password=password12#, userType=PASSENGER) 
+2019-07-13 12:32:27.673 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+2019-07-13 12:32:27.673 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+2019-07-13 12:32:27.676 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 3 ms 
+2019-07-13 12:32:27.683 [main] INFO  c.h.homework.app.auth.AuthController - [AuthController]: >> 로그인 : UserDto(id=null, email=hychoi@ebay.com, password=password12#, userType=PASSENGER) 
+2019-07-13 12:32:27.705 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+2019-07-13 12:32:27.706 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+2019-07-13 12:32:27.710 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 4 ms 
+2019-07-13 12:32:27.925 [Thread-4] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor' 
+2019-07-13 12:32:58.558 [main] INFO  c.h.h.a.a.c.AuthControllerTest - Starting AuthControllerTest on L-SKG-16503400 with PID 75680 (started by hychoi in C:\Users\hychoi\git\simpleDispatchApi\homework\homework-api) 
+2019-07-13 12:32:58.560 [main] INFO  c.h.h.a.a.c.AuthControllerTest - The following profiles are active: local 
+2019-07-13 12:33:01.422 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2019-07-13 12:33:01.900 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+2019-07-13 12:33:01.901 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+2019-07-13 12:33:01.963 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 62 ms 
+2019-07-13 12:33:02.056 [main] INFO  c.h.h.a.a.c.AuthControllerTest - Started AuthControllerTest in 4.518 seconds (JVM running for 6.141) 
+2019-07-13 12:33:02.164 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+2019-07-13 12:33:02.164 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+2019-07-13 12:33:02.168 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 4 ms 
+2019-07-13 12:33:02.470 [main] INFO  c.h.homework.app.auth.AuthController - [AuthController]: >> 회원가입 : UserDto(id=null, email=hychoi@ebay.com, password=password12#, userType=PASSENGER) 
+2019-07-13 12:33:02.533 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+2019-07-13 12:33:02.534 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+2019-07-13 12:33:02.536 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms 
+2019-07-13 12:33:02.544 [main] INFO  c.h.homework.app.auth.AuthController - [AuthController]: >> 로그인 : UserDto(id=null, email=hychoi@ebay.com, password=password12#, userType=PASSENGER) 
+2019-07-13 12:33:02.588 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+2019-07-13 12:33:02.588 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+2019-07-13 12:33:02.591 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms 
+2019-07-13 12:33:02.627 [Thread-4] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor' 
+2019-07-13 12:37:22.461 [main] INFO  c.h.h.a.a.c.AuthControllerTest - Starting AuthControllerTest on L-SKG-16503400 with PID 76192 (started by hychoi in C:\Users\hychoi\git\simpleDispatchApi\homework\homework-api) 
+2019-07-13 12:37:22.462 [main] INFO  c.h.h.a.a.c.AuthControllerTest - The following profiles are active: local 
+2019-07-13 12:37:25.905 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2019-07-13 12:37:26.517 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+2019-07-13 12:37:26.518 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+2019-07-13 12:37:26.551 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 33 ms 
+2019-07-13 12:37:26.645 [main] INFO  c.h.h.a.a.c.AuthControllerTest - Started AuthControllerTest in 5.005 seconds (JVM running for 6.626) 
+2019-07-13 12:37:26.780 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+2019-07-13 12:37:26.781 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+2019-07-13 12:37:26.787 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 6 ms 
+2019-07-13 12:37:27.177 [main] INFO  c.h.homework.app.auth.AuthController - [AuthController]: >> 회원가입 : UserDto(id=null, email=hychoi@ebay.com, password=password12#, userType=PASSENGER) 
+2019-07-13 12:37:27.253 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+2019-07-13 12:37:27.254 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+2019-07-13 12:37:27.257 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms 
+2019-07-13 12:37:27.266 [main] INFO  c.h.homework.app.auth.AuthController - [AuthController]: >> 로그인 : UserDto(id=null, email=hychoi@ebay.com, password=password12#, userType=PASSENGER) 
+2019-07-13 12:37:27.317 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+2019-07-13 12:37:27.317 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+2019-07-13 12:37:27.320 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 3 ms 
+2019-07-13 12:37:27.435 [Thread-4] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor' 
+2019-07-13 12:37:54.570 [main] INFO  c.h.h.a.a.c.AuthControllerTest - Starting AuthControllerTest on L-SKG-16503400 with PID 77256 (started by hychoi in C:\Users\hychoi\git\simpleDispatchApi\homework\homework-api) 
+2019-07-13 12:37:54.571 [main] INFO  c.h.h.a.a.c.AuthControllerTest - The following profiles are active: local 
+2019-07-13 12:37:57.420 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2019-07-13 12:37:57.928 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+2019-07-13 12:37:57.929 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+2019-07-13 12:37:57.961 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 32 ms 
+2019-07-13 12:37:58.029 [main] INFO  c.h.h.a.a.c.AuthControllerTest - Started AuthControllerTest in 4.342 seconds (JVM running for 6.244) 
+2019-07-13 12:37:58.150 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+2019-07-13 12:37:58.152 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+2019-07-13 12:37:58.155 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 3 ms 
+2019-07-13 12:37:58.495 [main] INFO  c.h.homework.app.auth.AuthController - [AuthController]: >> 회원가입 : UserDto(id=null, email=hychoi@ebay.com, password=password12#, userType=PASSENGER) 
+2019-07-13 12:37:58.595 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+2019-07-13 12:37:58.596 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+2019-07-13 12:37:58.599 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 3 ms 
+2019-07-13 12:37:58.607 [main] INFO  c.h.homework.app.auth.AuthController - [AuthController]: >> 로그인 : UserDto(id=null, email=hychoi@ebay.com, password=password12#, userType=PASSENGER) 
+2019-07-13 12:37:58.640 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+2019-07-13 12:37:58.641 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+2019-07-13 12:37:58.643 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms 
+2019-07-13 12:37:58.694 [Thread-4] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor' 
+2019-07-13 12:38:48.397 [main] INFO  c.h.h.a.a.c.AuthControllerTest - Starting AuthControllerTest on L-SKG-16503400 with PID 78004 (started by hychoi in C:\Users\hychoi\git\simpleDispatchApi\homework\homework-api) 
+2019-07-13 12:38:48.399 [main] INFO  c.h.h.a.a.c.AuthControllerTest - The following profiles are active: local 
+2019-07-13 12:38:51.372 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2019-07-13 12:38:51.807 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+2019-07-13 12:38:51.808 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+2019-07-13 12:38:51.838 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 30 ms 
+2019-07-13 12:38:51.903 [main] INFO  c.h.h.a.a.c.AuthControllerTest - Started AuthControllerTest in 4.37 seconds (JVM running for 5.941) 
+2019-07-13 12:38:52.019 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+2019-07-13 12:38:52.021 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+2019-07-13 12:38:52.025 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 4 ms 
+2019-07-13 12:38:52.373 [main] INFO  c.h.homework.app.auth.AuthController - [AuthController]: >> 회원가입 : UserDto(id=null, email=hychoi@ebay.com, password=password12#, userType=PASSENGER) 
+2019-07-13 12:38:52.456 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+2019-07-13 12:38:52.457 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+2019-07-13 12:38:52.459 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms 
+2019-07-13 12:38:52.464 [main] INFO  c.h.homework.app.auth.AuthController - [AuthController]: >> 로그인 : UserDto(id=null, email=hychoi@ebay.com, password=password12#, userType=PASSENGER) 
+2019-07-13 12:38:52.473 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+2019-07-13 12:38:52.474 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+2019-07-13 12:38:52.477 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 3 ms 
+2019-07-13 12:38:52.494 [main] INFO  c.h.homework.app.auth.AuthController - [AuthController]: >> 로그인 : UserDto(id=null, email=hychoi@ebay.com, password=password12#, userType=PASSENGER) 
+2019-07-13 12:38:52.530 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+2019-07-13 12:38:52.530 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+2019-07-13 12:38:52.532 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms 
+2019-07-13 12:38:52.556 [Thread-4] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor' 
+2019-07-13 13:26:18.010 [main] INFO  c.h.h.a.a.c.AuthControllerTest - Starting AuthControllerTest on L-SKG-16503400 with PID 84496 (started by hychoi in C:\Users\hychoi\git\simpleDispatchApi\homework\homework-api) 
+2019-07-13 13:26:18.012 [main] INFO  c.h.h.a.a.c.AuthControllerTest - The following profiles are active: local 
+2019-07-13 13:26:23.194 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2019-07-13 13:26:23.831 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+2019-07-13 13:26:23.832 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+2019-07-13 13:26:23.865 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 33 ms 
+2019-07-13 13:26:23.971 [main] INFO  c.h.h.a.a.c.AuthControllerTest - Started AuthControllerTest in 6.86 seconds (JVM running for 8.556) 
+2019-07-13 13:26:24.174 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+2019-07-13 13:26:24.175 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+2019-07-13 13:26:24.183 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 8 ms 
+2019-07-13 13:26:24.664 [main] INFO  c.h.homework.app.auth.AuthController - [AuthController]: >> 회원가입 : UserDto(id=null, email=hychoi@ebay.com, password=password12#, userType=PASSENGER) 
+2019-07-13 13:26:24.748 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+2019-07-13 13:26:24.749 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+2019-07-13 13:26:24.755 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 6 ms 
+2019-07-13 13:26:24.760 [main] INFO  c.h.homework.app.auth.AuthController - [AuthController]: >> 로그인 : UserDto(id=null, email=hychoi@ebay.com, password=password12#, userType=PASSENGER) 
+2019-07-13 13:26:24.771 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+2019-07-13 13:26:24.772 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+2019-07-13 13:26:24.774 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms 
+2019-07-13 13:26:24.787 [main] INFO  c.h.homework.app.auth.AuthController - [AuthController]: >> 로그인 : UserDto(id=null, email=hychoi@ebay.com, password=password12#, userType=PASSENGER) 
+2019-07-13 13:26:24.814 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+2019-07-13 13:26:24.814 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+2019-07-13 13:26:24.816 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms 
+2019-07-13 13:26:24.851 [Thread-4] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor' 
+2019-07-13 13:27:49.279 [main] INFO  c.h.h.a.a.c.AuthControllerTest - Starting AuthControllerTest on L-SKG-16503400 with PID 85468 (started by hychoi in C:\Users\hychoi\git\simpleDispatchApi\homework\homework-api) 
+2019-07-13 13:27:49.282 [main] INFO  c.h.h.a.a.c.AuthControllerTest - The following profiles are active: local 
+2019-07-13 13:27:52.671 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2019-07-13 13:27:53.168 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+2019-07-13 13:27:53.168 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+2019-07-13 13:27:53.231 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 62 ms 
+2019-07-13 13:27:53.304 [main] INFO  c.h.h.a.a.c.AuthControllerTest - Started AuthControllerTest in 4.89 seconds (JVM running for 6.968) 
+2019-07-13 13:27:53.534 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+2019-07-13 13:27:53.535 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+2019-07-13 13:27:53.539 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 4 ms 
+2019-07-13 13:27:53.841 [main] INFO  c.h.homework.app.auth.AuthController - [AuthController]: >> 회원가입 : UserDto(id=null, email=hychoi@ebay.com, password=password12#, userType=PASSENGER) 
+2019-07-13 13:27:53.905 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+2019-07-13 13:27:53.906 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+2019-07-13 13:27:53.908 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms 
+2019-07-13 13:27:53.912 [main] INFO  c.h.homework.app.auth.AuthController - [AuthController]: >> 로그인 : UserDto(id=null, email=hychoi@ebay.com, password=password12#, userType=PASSENGER) 
+2019-07-13 13:27:53.926 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+2019-07-13 13:27:53.927 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+2019-07-13 13:27:53.930 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 3 ms 
+2019-07-13 13:27:53.937 [main] INFO  c.h.homework.app.auth.AuthController - [AuthController]: >> 로그인 : UserDto(id=null, email=hychoi@ebay.com, password=password12#, userType=PASSENGER) 
+2019-07-13 13:27:53.962 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+2019-07-13 13:27:53.962 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+2019-07-13 13:27:53.965 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 3 ms 
+2019-07-13 13:27:54.026 [Thread-4] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor' 
+2019-07-13 13:28:16.708 [main] INFO  c.h.h.a.a.c.AuthControllerTest - Starting AuthControllerTest on L-SKG-16503400 with PID 85704 (started by hychoi in C:\Users\hychoi\git\simpleDispatchApi\homework\homework-api) 
+2019-07-13 13:28:16.710 [main] INFO  c.h.h.a.a.c.AuthControllerTest - The following profiles are active: local 
+2019-07-13 13:28:20.236 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2019-07-13 13:28:20.642 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+2019-07-13 13:28:20.643 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+2019-07-13 13:28:20.671 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 28 ms 
+2019-07-13 13:28:20.720 [main] INFO  c.h.h.a.a.c.AuthControllerTest - Started AuthControllerTest in 4.931 seconds (JVM running for 6.712) 
+2019-07-13 13:28:20.834 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+2019-07-13 13:28:20.835 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+2019-07-13 13:28:20.838 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 3 ms 
+2019-07-13 13:28:21.334 [main] INFO  c.h.homework.app.auth.AuthController - [AuthController]: >> 회원가입 : UserDto(id=null, email=hychoi@ebay.com, password=password12#, userType=PASSENGER) 
+2019-07-13 13:28:21.398 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+2019-07-13 13:28:21.398 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+2019-07-13 13:28:21.401 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms 
+2019-07-13 13:28:21.420 [main] INFO  c.h.homework.app.auth.AuthController - [AuthController]: >> 로그인 : UserDto(id=null, email=hychoi@ebay.com, password=password12#, userType=PASSENGER) 
+2019-07-13 13:28:21.438 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+2019-07-13 13:28:21.439 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+2019-07-13 13:28:21.443 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 4 ms 
+2019-07-13 13:28:21.452 [main] INFO  c.h.homework.app.auth.AuthController - [AuthController]: >> 로그인 : UserDto(id=null, email=hychoi@ebay.com, password=password12#, userType=PASSENGER) 
+2019-07-13 13:28:21.477 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+2019-07-13 13:28:21.478 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+2019-07-13 13:28:21.480 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms 
+2019-07-13 13:28:21.518 [Thread-4] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor' 

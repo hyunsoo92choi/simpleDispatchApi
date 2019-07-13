@@ -1,11 +1,16 @@
 package com.hschoi.homework.app.call.service.impl;
 
+import static com.hschoi.common.code.HttpStatusType.INVALID_ADDRESS;
+
+import java.time.LocalDateTime;
 import java.util.Date;
 import java.util.List;
+import java.util.stream.Collectors;
 
 import javax.transaction.Transactional;
 
 import org.apache.commons.lang3.StringUtils;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
@@ -18,8 +23,6 @@ import com.hschoi.homework.app.call.repository.CallRepository;
 import com.hschoi.homework.app.call.service.CallService;
 import com.hschoi.homework.app.user.entity.User;
 
-import static com.hschoi.common.code.HttpStatusType.INVALID_ADDRESS;
-
 /**
  * <pre>
  * com.hschoi.homework.app.call.service.impl_CallServiceImpl.java
@@ -30,30 +33,64 @@ import static com.hschoi.common.code.HttpStatusType.INVALID_ADDRESS;
 @Service
 public class CallServiceImpl implements CallService {
 	
-	private final CallRepository repository;
-
-	public CallServiceImpl(CallRepository repository) {
-		this.repository = repository;
-	}
+	@Autowired
+	private CallRepository repository;
 	
 	@Override
 	@Transactional
 	public CallDto setRequest(User user, RequestDto requestDto) {
+		
 		if (requestDto == null || StringUtils.length(requestDto.getAddress()) > 100) {
-            throw new CustomException(INVALID_ADDRESS);
-        }
-		 Call call = Call.builder()
-		            .callStatusType(CallStatusType.REQUESTED)
-		            .address(requestDto.getAddress())
-		            .requestedAt(new Date())
-		            .passenger(user)
-		            .build();
-		 return repository.save(call).toCallDto(call);
+			throw new CustomException(INVALID_ADDRESS);
+		}
+		
+		Call call = Call.builder()
+						.callStatusType(CallStatusType.REQUESTED)
+						.address(requestDto.getAddress())
+						.requestedAt(new Date())
+						.createdAt( LocalDateTime.now())
+						.updatedAt( LocalDateTime.now())						
+						.passenger(user)
+						.build();
+		
+		return repository.save(call).toCallDto(call);
 	}
-	
+
+	/**
+	 * <pre>
+	 * 1. 개요 : 목록 조회
+	 * 2. 처리내용 : 전체의 배차 요청의 목록을 응답합니다.
+	 * 				 배차가 완료된 요청과, 대기중인 요청 모두 목록에 표시
+	 * 				 배차 대기 중인지, 완료된 요청인지 목록에 표시
+	 * 				 배차 요청 시간과 배차 완료 시간을 목록에 표시
+	 * 				 최근 추가된 요청부터 목록에 표시 (DESC)
+	 * </pre>
+	 * @Method Name : list
+	 * @date : 2019. 7. 13.
+	 * @author : hychoi
+	 * @history : 
+	 *	-----------------------------------------------------------------------
+	 *	변경일				작성자						변경내용  
+	 *	----------- ------------------- ---------------------------------------
+	 *	2019. 7. 13.		hychoi				최초 작성 
+	 *	-----------------------------------------------------------------------
+	 * 
+	 * @param pageable
+	 * @return List<CallDto>
+	 */ 	
 	@Override
 	public List<CallDto> list(Pageable pageable) {
-		return null;
+		
+		List<Call> callPage = repository.findAllBy(pageable);
+		
+		return mapToCallList(callPage);
+		 
 	}
+	
+	 private List<CallDto> mapToCallList(List<Call> listData) {
+	        return listData.stream()
+	                .map(Call::toCallDto)
+	                .collect(Collectors.toList());
+	    }
 
 }

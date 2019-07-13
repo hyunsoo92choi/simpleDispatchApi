@@ -16,7 +16,6 @@ import static com.hschoi.common.code.HttpStatusType.INVALID_USERTYPE;
 public enum UserType implements EnumType {
 	DRIVER("기사")
   , PASSENGER("승객")
-  , DRIVERer("기사")
   ;
 
 	private String message;

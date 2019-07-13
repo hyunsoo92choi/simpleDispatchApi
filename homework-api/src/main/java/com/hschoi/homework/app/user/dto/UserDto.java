@@ -31,7 +31,8 @@ import lombok.ToString;
 @NoArgsConstructor
 @AllArgsConstructor
 public class UserDto {
-private Long id;
+
+	private Long id;
 	
 	@NotNull
     @Size(min = 5, max = 20)

@@ -6,6 +6,7 @@ import org.springframework.data.domain.Pageable;
 
 import com.hschoi.homework.app.call.dto.CallDto;
 import com.hschoi.homework.app.call.dto.RequestDto;
+import com.hschoi.homework.app.call.entity.Call;
 import com.hschoi.homework.app.user.entity.User;
 
 /**

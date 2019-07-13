@@ -19,6 +19,8 @@ import com.hschoi.homework.app.user.service.UserService;
 import com.hschoi.homework.common.auth.dto.AuthDto;
 import com.hschoi.homework.common.auth.service.AuthService;
 
+import lombok.RequiredArgsConstructor;
+
 /**
  * <pre>
  * com.hschoi.homework.app.auth_AuthController.java

@@ -79,11 +79,35 @@ public class CallController {
         return ResponseEntity.status(HttpStatus.CREATED).body(callDto);
     }
     
+    /**
+	 * <pre>
+	 * 1. 개요 : 목록 조회
+	 * 2. 처리내용 : 전체의 배차 요청의 목록을 응답합니다.
+	 * 				 배차가 완료된 요청과, 대기중인 요청 모두 목록에 표시
+	 * 				 배차 대기 중인지, 완료된 요청인지 목록에 표시
+	 * 				 배차 요청 시간과 배차 완료 시간을 목록에 표시
+	 * 				 최근 추가된 요청부터 목록에 표시 (DESC)
+	 * </pre>
+	 * @Method Name : list
+	 * @date : 2019. 7. 13.
+	 * @author : hychoi
+	 * @history : 
+	 *	-----------------------------------------------------------------------
+	 *	변경일				작성자						변경내용  
+	 *	----------- ------------------- ---------------------------------------
+	 *	2019. 7. 13.		hychoi				최초 작성 
+	 *	-----------------------------------------------------------------------
+	 * 
+	 * @param pageable
+	 * @return List<CallDto>
+	 */ 	
     @GetMapping("/list")
-    public List<CallDto> list(
-        @PageableDefault(sort = {"id"}, direction = Direction.DESC, size = 10) Pageable pageable) {
+    public ResponseEntity<List<CallDto>> list(
+        @PageableDefault(sort = {"id"}, direction = Direction.DESC, size = 3) Pageable pageable) {
     	log.info("[CallController]: >> 요청조회 : {}" );
     	
-        return callService.list(pageable);
+    	List<CallDto> callDtoList = callService.list(pageable);
+    	
+    	return ResponseEntity.status(HttpStatus.OK).body(callDtoList);
     }
 }
