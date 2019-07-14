@@ -226,3 +226,13 @@ JWT로 API의 인증처리를 개발 하였습니다.
 ![user](./img/user.JPG)
 ![call](./img/call.JPG)
 ![erd](./img/erd.JPG)
+
+## Acknowledgments
+
+처음에 과제를 보고 생각한 것 보다 미흡하게 마무리하고 제출해야 해서 아쉬운 부분이 많다.
+Windows 환경에서 STS로 개발을 진행 하였는데, Maven만 이용 할 수 있는 환경이었고, Maven Multi-module을 사용해서
+Spring Rest-Doc을 이용 해 보는 것도 처음이었다.
+Spring Rest-Doc를 이용한 이유는 Test Code 작성과 동시에 API Spec 문서를 생성하여 Test Code를 강제 할 생각이었는데
+처음 해보는 것이어서 그런지 이틀동안 진행하는 프로젝트에는 익숙한 것을 사용해야 된다는 것을 느꼈다.
+조금 더 시간이 있었다면 주행완료, 취소 기능도 같이 개발 하고 싶었는데 어느덧 주말은 주어진 일에만 몰입해서 할 수 없는
+날이 된 것 같아 슬프고 아쉽다.
