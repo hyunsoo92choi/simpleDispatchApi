@@ -40,8 +40,6 @@ public class CallController {
 	private final Logger log = LoggerFactory.getLogger(CallController.class);
 
 	@Autowired
-	private UserService userService;
-	@Autowired
 	private AuthService authService;
 	@Autowired
 	private CallService callService;
@@ -111,6 +109,25 @@ public class CallController {
     	return ResponseEntity.status(HttpStatus.OK).body(callDtoList);
     }
     
+    /**
+     * <pre>
+     * 1. 개요 : 승차요청에 대한 배차 요청을 한다.
+     * 2. 처리내용 : 승차 요청시 생성된 요청 ID를 받아 배차 요청을 한다.
+     * </pre>
+     * @Method Name : assign
+     * @date : 2019. 7. 14.
+     * @author : hychoi
+     * @history : 
+     *	-----------------------------------------------------------------------
+     *	변경일				작성자						변경내용  
+     *	----------- ------------------- ---------------------------------------
+     *	2019. 7. 14.		hychoi				최초 작성 
+     *	-----------------------------------------------------------------------
+     * 
+     * @param requestDto
+     * @param request
+     * @return CallDto
+     */ 	
     @PostMapping("/assign")
     public ResponseEntity<CallDto> assign(@RequestBody RequestDto requestDto, HttpServletRequest request) {
         

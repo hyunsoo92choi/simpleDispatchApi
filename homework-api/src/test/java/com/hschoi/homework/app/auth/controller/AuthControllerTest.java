@@ -1,7 +1,7 @@
 package com.hschoi.homework.app.auth.controller;
 
-import static com.hschoi.common.code.HttpStatusType.USER_NOT_FOUND;
 import static com.hschoi.common.code.HttpStatusType.ACCOUNT_DUPLICATION;
+import static com.hschoi.common.code.HttpStatusType.USER_NOT_FOUND;
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.BDDMockito.given;
 import static org.springframework.restdocs.mockmvc.MockMvcRestDocumentation.document;
@@ -38,6 +38,8 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.hschoi.common.code.UserType;
 import com.hschoi.common.exception.CustomException;
 import com.hschoi.homework.app.auth.AuthController;
+import com.hschoi.homework.app.call.controller.CallController;
+import com.hschoi.homework.app.call.service.impl.CallServiceImpl;
 import com.hschoi.homework.app.user.dto.UserDto;
 import com.hschoi.homework.app.user.entity.User;
 import com.hschoi.homework.app.user.service.UserService;
@@ -51,7 +53,7 @@ import com.hschoi.homework.common.auth.service.AuthService;
  * @author : hychoi
  */
 @RunWith(SpringRunner.class)
-@WebMvcTest(AuthController.class)
+@WebMvcTest({AuthController.class})
 @EnableSpringDataWebSupport
 @ComponentScan(basePackages = "com.hschoi")
 public class AuthControllerTest {

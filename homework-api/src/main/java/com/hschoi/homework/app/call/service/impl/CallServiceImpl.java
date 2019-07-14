@@ -13,6 +13,7 @@ import javax.transaction.Transactional;
 
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
@@ -35,8 +36,8 @@ import com.hschoi.homework.app.user.entity.User;
 @Service
 public class CallServiceImpl implements CallService {
 	
-	@Autowired
-	private CallRepository repository;
+	@Autowired(required = false)
+	private CallRepository callRepository;
 	
 	@Override
 	@Transactional
@@ -55,7 +56,7 @@ public class CallServiceImpl implements CallService {
 						.passenger(user)
 						.build();
 		
-		return repository.save(call).toCallDto(call);
+		return callRepository.save(call).toCallDto(call);
 	}
 
 	/**
@@ -83,7 +84,7 @@ public class CallServiceImpl implements CallService {
 	@Override
 	public List<CallDto> list(Pageable pageable) {
 		
-		List<Call> callPage = repository.findAllBy(pageable);
+		List<Call> callPage = callRepository.findAllBy(pageable);
 		
 		return mapToCallList(callPage);
 		 
@@ -98,7 +99,7 @@ public class CallServiceImpl implements CallService {
 	@Override
 	public CallDto setAssign(User user, RequestDto requestDto) {
 
-		Call call = repository
+		Call call = callRepository
 				.findById(requestDto.getId())
 						.orElseThrow(() -> new CustomException(NOT_FOUND_CALL_ID));
 
@@ -111,7 +112,7 @@ public class CallServiceImpl implements CallService {
 		call.setUpdatedAt(LocalDateTime.now());
 		call.setDriver(user);
 		
-		return repository.save(call).toCallDto(call);
+		return callRepository.save(call).toCallDto(call);
 	}
 
 }

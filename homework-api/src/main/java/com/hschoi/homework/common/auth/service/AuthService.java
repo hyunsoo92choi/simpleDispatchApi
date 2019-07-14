@@ -57,8 +57,8 @@ public class AuthService {
     
     /**
      * <pre>
-     * 1. 개요 : 
-     * 2. 처리내용 : 
+     * 1. 개요 : 사용자 키 생성
+     * 2. 처리내용 : 사용자 키 생성
      * </pre>
      * @Method Name : createUserKey
      * @date : 2019. 7. 12.
@@ -71,7 +71,7 @@ public class AuthService {
      *	-----------------------------------------------------------------------
      * 
      * @param user
-     * @return
+     * @return String
      */ 	
     public String createUserKey(UserDto user) {
         
@@ -88,7 +88,7 @@ public class AuthService {
     
     /**
      * <pre>
-     * 1. 개요 : 
+     * 1. 개요 : Web Token 생성 method
      * 2. 처리내용 : 
      * </pre>
      * @Method Name : generateJWT
@@ -172,8 +172,8 @@ public class AuthService {
 
     /**
      * <pre>
-     * 1. 개요 : 인증된 사용자 반환
-     * 2. 처리내용 : 
+     * 1. 개요 : (공통) 인증된 사용자 반환
+     * 2. 처리내용 : 기사와 승객 각각 권한이 필요한 요청 체크 후 해당 사용자를 반환
      * </pre>
      * @Method Name : checkAuthAndGetUser
      * @date : 2019. 7. 12.
@@ -187,7 +187,7 @@ public class AuthService {
      * 
      * @param userTypeCode
      * @param request
-     * @return
+     * @return User
      */ 	
     public User checkAuthAndGetUser(UserType userTypeCode, HttpServletRequest request) {
         String token = getTokenFromRequest(request);
