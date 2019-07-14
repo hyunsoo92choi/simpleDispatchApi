@@ -9,6 +9,7 @@ import javax.persistence.Enumerated;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Table;
+import javax.validation.constraints.Size;
 
 import org.springframework.data.annotation.CreatedDate;
 import org.springframework.data.annotation.LastModifiedDate;
@@ -46,16 +47,16 @@ public class User {
 	@Id
 	@GeneratedValue
 	private Long id;
-
+	@Size(max=50)
 	@Column(nullable = false, unique = true)
 	private String email;
-
+	@Size(max=100)
 	@Column(nullable = false)
 	private String password;
-
 	@Enumerated(EnumType.STRING)
+	@Column(nullable = false)
+	@Size(max=20)
 	private UserType userType;
-
 	@CreatedDate
 	@Column(name = "created_at", nullable = false, updatable = false)
 	private LocalDateTime createdAt = LocalDateTime.now();

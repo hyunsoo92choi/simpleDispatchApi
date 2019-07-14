@@ -14,6 +14,8 @@ import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
+import javax.validation.constraints.NotEmpty;
+import javax.validation.constraints.Size;
 
 import org.springframework.data.annotation.CreatedDate;
 import org.springframework.data.annotation.LastModifiedDate;
@@ -58,7 +60,9 @@ public class Call {
 	@ManyToOne
 	@JoinColumn(name = "driver_id")
 	private User driver;
-
+	
+	@NotEmpty(message="주소를 입력해주세요.")
+	@Size(max=100)
 	private String address;
 
 	@Enumerated(EnumType.STRING)
@@ -100,8 +104,6 @@ public class Call {
 
     return CallDto.builder()
     		.id(call.getId())
-//    		.passenger(call.getPassenger())
-//    		.driver(call.getDriver())
     		.address(call.getAddress())
     		.callStatusType(call.getCallStatusType())
     		.requestedAt(call.getRequestedAt())
