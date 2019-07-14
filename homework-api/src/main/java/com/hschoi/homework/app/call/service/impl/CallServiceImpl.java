@@ -105,8 +105,13 @@ public class CallServiceImpl implements CallService {
 		if (CallStatusType.ASSIGNED.equals(call.getCallStatusType())) {
 			throw new CustomException(ALREADY_ASSIGNED);
 		}
-
-		return null;
+		
+		call.setCallStatusType(CallStatusType.ASSIGNED);
+		call.setAssignedAt(new Date());
+		call.setUpdatedAt(LocalDateTime.now());
+		call.setDriver(user);
+		
+		return repository.save(call).toCallDto(call);
 	}
 
 }
