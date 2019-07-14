@@ -221,3 +221,8 @@ JWT로 API의 인증처리를 개발 하였습니다.
 토큰 만료일은 한 시간으로 만료 시 API접근이 불가하며, 사전에 토큰 갱신을 해야 API 접근이 가능합니다.
 발급받은 토큰은 Http Header에 담아 request를 날려야 정상 인증이 됩니다.
 인증 이외의 API는 요구사항에 맞게 개발하였습니다.
+
+## DB Infomation
+![user](./img/user.JPG)
+![call](./img/call.JPG)
+![erd](./img/erd.JPG)
