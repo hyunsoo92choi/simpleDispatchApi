@@ -165,7 +165,6 @@ http://localhost:8080/h2-console DB 확인.
 <p>Method : GET</p>
 </blockquote>
 
-
 ### 택시 배차요청
 <blockquote>
 <p>URL : /api/{version}/call/request</p>
@@ -188,6 +187,7 @@ http://localhost:8080/h2-console DB 확인.
 </tr>
 </tbody>
 </table>
+
 ### 기사 배차
 <blockquote>
 <p>URL : /api/{version}/call/assign</p>
