@@ -6,7 +6,8 @@
 		<groupId>com.hschoi</groupId>
 		<artifactId>homework</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
-		<relativePath>../homework</relativePath>
+		<!-- <relativePath>../homework</relativePath> -->
+		<!-- <relativePath>../homework</relativePath> -->
 	</parent>
 	<artifactId>homework-api</artifactId>
 	<packaging>war</packaging>
@@ -15,8 +16,7 @@
 
 	<properties>
 		<java.version>1.8</java.version>
-		<spring-boot.repackage.skip>true</spring-boot.repackage.skip>
-		<start-class>com.hschoi.homework.HomeworkApplication</start-class>
+		<spring-boot.repackage.skip>true</spring-boot.repackage.skip>		
 	</properties>
 	
 	<dependencies>
