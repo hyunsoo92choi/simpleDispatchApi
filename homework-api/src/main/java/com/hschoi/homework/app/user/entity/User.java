@@ -55,7 +55,6 @@ public class User {
 	private String password;
 	@Enumerated(EnumType.STRING)
 	@Column(nullable = false)
-	@Size(max=20)
 	private UserType userType;
 	@CreatedDate
 	@Column(name = "created_at", nullable = false, updatable = false)

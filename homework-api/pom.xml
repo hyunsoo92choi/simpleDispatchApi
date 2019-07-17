@@ -6,17 +6,19 @@
 		<groupId>com.hschoi</groupId>
 		<artifactId>homework</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
-		<!-- <relativePath>../homework</relativePath> -->
+		<relativePath>../homework</relativePath>
 		<!-- <relativePath>../homework</relativePath> -->
 	</parent>
 	<artifactId>homework-api</artifactId>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	<name>homework-api</name>
 	<description>homework-api for Drama&amp;Company pre-test</description>
 
 	<properties>
 		<java.version>1.8</java.version>
-		<spring-boot.repackage.skip>true</spring-boot.repackage.skip>		
+		<spring-boot.repackage.skip>true</spring-boot.repackage.skip>
+		 <!-- The main class to start by executing java -jar -->
+    			
 	</properties>
 	
 	<dependencies>
@@ -34,11 +36,46 @@
 		    <version>0.9.1</version>
 		</dependency>
 		
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-aop</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-tomcat</artifactId>
+			<scope>provided</scope>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+	
 	</dependencies>
 	
 	<build>
 		<finalName>${project.artifactId}</finalName>
 		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>				
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<configuration>
+					<encoding>UTF-8</encoding>
+					<source>1.8</source>
+					<target>1.8</target>
+				</configuration>
+			</plugin>
 			<!-- asciidoctor plugin 추가-->
 			<plugin>
 				<groupId>org.asciidoctor</groupId>

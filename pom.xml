@@ -20,10 +20,14 @@
 
 	<properties>
 		<java.version>1.8</java.version>
+		<maven.compiler.encoding>UTF-8</maven.compiler.encoding>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-		<!-- The main class to start by executing java -jar -->
-		<start-class>com.hschoi.homework.HomeworkApplication</start-class>
+    	<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    	<spring.framework.boot.version>2.1.5.RELEASE</spring.framework.boot.version>    	
+	    <failOnMissingWebXml>false</failOnMissingWebXml>
+	    <!-- The main class to start by executing java -jar -->
+    	<start-class>com.hschoi.homework.HomeworkApplication</start-class>
+	    
 	</properties>
 
 	<!-- 공통으로 사용할 dependency -->
@@ -134,16 +138,40 @@
 	<build>
 		<plugins>
 		<plugin>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-maven-plugin</artifactId>
-			<executions>
-				<execution>
-					<goals>
-						<goal>repackage</goal>
-					</goals>
-				</execution>
-			</executions>
-		</plugin>		
-	</plugins>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+				<!-- <executions>
+					<execution>
+						<goals>
+							<goal>repackage</goal>
+						</goals>
+					</execution>
+				</executions> -->
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<configuration>
+					<encoding>UTF-8</encoding>
+					<source>1.8</source>
+					<target>1.8</target>
+				</configuration>
+			</plugin>
+        	<!-- <plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-war-plugin</artifactId>
+				<version>3.0.2</version>
+				<configuration>
+					<archive>
+						<manifest>
+							<mainClass>com.hschoi.homework.HomeworkApplication</mainClass>
+							<addClasspath>true</addClasspath>
+							<addExtensions>true</addExtensions>
+							<packageName>com.hschoi.homework</packageName>
+						</manifest>
+					</archive>
+				</configuration>
+			</plugin> -->
+		</plugins>
 	</build>
 </project>
